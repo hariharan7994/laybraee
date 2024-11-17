@@ -190,16 +190,88 @@ p{
 #b6{
     font-size: small;
     margin-top: 0%;
+    margin-left: -58%;
 }
 #i1{
-  margin-left: 96%;
+  margin-left: 135%;
+  /* margin-bottom:70% ; */
+
 }
 #lo{
   margin-left:70%;
+  font-size: small;
 }
 #d1{
   font-size: 10px;
   justify-content: space-between;
   gap: 10px;
 }
+
+}
+@media screen and (max-width: 360px){
+
+  #lo{
+    margin-left:57%;
+  }
+  #b6{
+    font-size: smaller;
+    background-size: 0%;
+   height: min-content;
+   margin-left: -2%;
+  }
+  #d1{
+    justify-content: space-around;
+    gap: 10px;
+    font-size: smaller;
+  }
+}
+
+@media screen and (max-width: 670px){
+#a1{
+  display: none;
+}
+}
+
+
+@media screen and (max-width: 760px){
+  #a1{
+    margin-left: -51%;
+    font-size: small;
+    justify-content: space-evenly;
+  }
+  .f1{
+    margin-left: 0%;
+  }
+  p{
+    display: none;
+  }
+  #g1{
+    display: none;
+  }
+.hari{
+  margin-left: 40%;
+  margin-bottom: 4%;
+}
+.harii{
+  font-size: medium;
+}
+}
+@media screen and (max-width: 1400px){
+#a1{
+  margin-left: -42%
+};
+}
+
+@media screen and (max-width: 450px){
+#b6{
+  margin-left: -55%;
+}
+}
+@media screen and (max-width: 400px){
+  #b6{
+    margin-left: 1%;
+  }
+  #i1{
+    margin-left: 102%;
+  }
 }
