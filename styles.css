@@ -6,7 +6,7 @@ body{
     height: 100%;
     background-attachment: fixed;
    
-}
+} 
 h1{
     color: white;
     margin-top: 150%;
@@ -234,7 +234,7 @@ p{
 @media screen and (max-width: 360px){
 
   #lo{
-    margin-left:57%;
+    margin-left:52%;
   }
   #b6{
     font-size: smaller;
@@ -298,4 +298,14 @@ p{
     margin-left: 102%;
   }
   
+}
+@media screen and (max-width: 432px){
+#b6{
+  margin-left: 8%;
+  font-size:smaller  ;
+}
+#i1{
+  margin-left: 118%;
+}
+
 }
