@@ -2,6 +2,10 @@ body{
     background-image: url('https://i.postimg.cc/P5RZmWdw/Web-Home-Page-Banner-03.avif');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+   
 }
 h1{
     color: white;
@@ -156,11 +160,30 @@ h1{
 
 /* responsive */
 @media screen and (max-width: 480px) {
-  background-image{
+  /* background-image{
     background-image: url('https://i.postimg.cc/P5RZmWdw/Web-Home-Page-Banner-03.avif');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 60%;
+    width: fit-content;
+    height:max-content;
+    margin-bottom: 0%;
+    
+  } */
+
+  body{
+    background-image{
+      background-image: url('https://i.postimg.cc/P5RZmWdw/Web-Home-Page-Banner-03.avif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: 60%;
+      width: fit-content;
+      height:max-content;
+      margin-bottom: 0%;
+      
+    }
+  
+   
   }
   .nav-item{
    
@@ -274,4 +297,5 @@ p{
   #i1{
     margin-left: 102%;
   }
+  
 }
